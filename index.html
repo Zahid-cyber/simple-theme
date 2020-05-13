@@ -1,10 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>simple theme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>web theme</title>
+    <!--links--ofline-------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="./assets/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script src="assets/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <!--links---------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--========font==============================================-->
+    <!--
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    -->
+    <script defer src="assets/fontawesome-free-5.13.0-web/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>some text</h1>
-</body>
-</html>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+    <!--
+   ====================================================================================================
+                                   menu
+   ====================================================================================================
+   -->
+   <style>
+       /*=====style for nav important overwrite========*/
+       .scrool{
+           background: rgba(0, 0, 0, 0.35) !important;
+       }
+       .scolled{
+           background: black !important;
+       }
+    </style>
+    <section class="menu">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top scrool" style="">
+            <a href="#" class="navbar-brand">IBIT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link"><i class="fas fa-home"></i>home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                    <li class="nav-item"><a href="#course" class="nav-link">our course</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#footer" class="nav-link">footer</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">more</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">link</a>
+                            <a href="#" class="dropdown-item">link</a>
+                            <a href="#" class="dropdown-item">link</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!--
+   ====================================================================================================
+                              header     
+   ====================================================================================================
+   -->
+    <section class="header" id="home">
+        <div class="text-center text-light center-all">
+            <div class="display-4">Islami bank institiute of technology</div>
+            <address>banani,bogura</address>
+        </div>
+        <div class="svg">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 400" enable-background="new 0 0 1280 400" xml:space="preserve">
+                <polygon fill="#FFFFFF" points="1280,320.8 0,400 0,400 1280,400 " />
+            </svg>
+
+        </div>
+    </section>
+
+
+    <!--
+   ====================================================================================================
+                                   about
+   ====================================================================================================
+   -->
+    <section class="about" id="about">
+        <div class="cover">
+            <div class="about-main center-all">
+                <div class="middle-div left-right">
+                    <p>
+                        Our course
+                    </p>
+                </div>
+
+                <div class="left-div  left-right">
+
+                    <p>
+
+                        <a href="#">diploma</a>
+                    </p>
+                </div>
+                <div class="right-div left-right">
+                    <p>
+                        <a href="#">hospitality</a>
+                    </p>
+                </div>
+                <div class="top-div top-bottom">
+                    <p>
+                        <a href="#">computer short course</a>
+
+                    </p>
+                </div>
+                <div class="bottom-div top-bottom">
+                    <p>
+                        <a href="#">waring short course</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+   ====================================================================================================
+                                   our course
+   ====================================================================================================
+   -->
+    <section class="ourCourse p-5" id="course">
+        <div class="row">
+            <div class="col-lg-3  col-sm-6">
+                <div class="col-md-10 course-poster">
+                    <div class="course-body">
+                        <div class="header-title">
+                            <div class="center-all">Diploma</div>
+                        </div>
+                        <div class="center-top text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere suscipit esse veritatis </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-sm-6">
+                <div class="col-md-10 course-poster">
+                    <div class="course-body">
+                        <div class="header-title">
+                            <div class="center-all"> Computer short course</div>
+                        </div>
+                        <div class="center-top text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere suscipit esse veritatis </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-sm-6">
+                <div class="col-md-10 course-poster">
+                    <div class="course-body">
+                        <div class="header-title">
+                            <div class="center-all"> electrical short course</div>
+                        </div>
+                        <div class="center-top text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere suscipit esse veritatis </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-sm-6">
+                <div class="col-md-10 course-poster">
+                    <div class="course-body">
+                        <div class="header-title">
+                            <div class="center-all">Hospitality</div>
+                        </div>
+                        <div class="center-top text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere suscipit esse veritatis </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+   ====================================================================================================
+                                contact   
+   ====================================================================================================
+   -->
+    <section class="contact p-5" id="contact">ccccccccc</section>
+
+
+
+    <!--
+   ====================================================================================================
+                                   banner
+   ====================================================================================================
+   -->
+    <section>
+        <div class="banner" id="banner">
+
+
+        </div>
+    </section>
+
+    <!--
+   ====================================================================================================
+                                   footer
+   ====================================================================================================
+   -->
+    <footer id="footer" class="p-3 bg-dark text-light">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="p-5">
+                    <div class="display-4">
+                        Contact us
+                    </div>
+                    <address>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dolor quibusdam fuga illo. Numquam, officia, omnis. Possimus amet placeat minus doloribus architecto temporibus harum eligendi odio, ab itaque porro a.
+                    </address>                    
+                    <div class="social contact-us">
+                        <div><a href="#"><i class="fas fa-phone-alt"></i></a></div>
+                        <div><a href="#"><i class="fab fa-facebook-messenger"></i></a></div>
+                        <div><a href="#"><i class="fas fa-at"></i></a></div>
+                        <div><a href="#"><i class="fas fa-envelope"></i></a></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-5">
+                    <div class="display-4">
+                        Follow us
+                    </div>
+                    <div class="social">
+                        <div><a href="#"><i class="fab fa-facebook"></i></a></div>
+                        <div><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+                        <div><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+                        <div><a href="#"><i class="fab fa-linkedin"></i></a></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="left">
+                </div>
+                <div class="right">IBIT copywrite all reserved &copy;2020</div>
+            </div>
+        </div>
+    </footer>
+    <script>
+       // navbar background color change on scroll
+
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if(scroll < 500){
+            $('nav').removeClass('scolled');
+        } else{
+            
+            $('nav').addClass('scolled');
+        }
+    });
+    </script>
+</body></html>

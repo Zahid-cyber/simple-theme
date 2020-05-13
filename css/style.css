@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center-all{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center-top{    
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+        padding:5px;
+    text-align: center;
+}
+body {}
+
+.section {
+    //min-height: 300px;
+    //padding: 100px;
+}
+/*
+   ====================================================================================================
+                                   menu
+   ====================================================================================================
+*/
+nav{
+    
+}
+.menu {
+    //background-color: rgba(87, 16, 235, 0.55);
+
+    background-image: url(img/fairy-tale-1077863_1280.jpg);
+    color: white;
+    //background: red;
+    width: 100%;
+    height: 100%;    
+    cursor:pointer;
+
+}
+
+/*
+   ====================================================================================================
+                                   header
+   ====================================================================================================
+*/
+.header {
+    background-color: rgba(87, 16, 235, 0.55);
+    background-blend-mode: overlay;
+    padding: 50px;
+    height: 100vh;
+    background-image: url(../img/unnamed.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.header:hover{
+    background-color: rgba(0, 0, 0, 0.2);    
+}
+.svg{
+    //background: red;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.svg polygon{
+    width: 100%;
+    height: 100%;
+}
+
+/*
+   ====================================================================================================
+                                   banner
+   ====================================================================================================
+*/
+.banner {
+    border: 1px solid black;
+    //background-image:url(../img/unnamed.jpg);
+    background-size: cover;
+    background-color: black;
+    background-color: rgba(0, 0, 0);
+    background-blend-mode: overlay;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/*
+   ====================================================================================================
+                                   about
+   ====================================================================================================
+*/
+.about {
+    background: white;
+    height: 600px;
+    position: relative;
+    //font-family: 'Orbitron', sans-serif;
+}
+/*=============================cover========================*/
+.cover{
+    //background: tomato;
+    margin: auto;
+    overflow: hidden;
+    width: 500px;
+    position: relative;
+    height: 100%;
+}
+.about:hover .cover{
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+/*=============================about main========================*/
+.about-main, .about-main .left-right ,.about-main .top-bottom {
+    background-image: url(../img/gradient/vector-colorful-holographic-gradient-background-design.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.about-main .middle-div{
+    background: none;
+}
+.about-main {
+    //background: white;
+    color: black;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*=============================set default position========================*/
+.about-main .left-right {
+    //background: white;
+    color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.about-main .top-bottom {
+    //background: white;
+    color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/*=============================set position========================*/
+.about-main .top-div{
+    top: -70%;
+}
+.about-main .bottom-div{
+    bottom: -135%;
+}
+.about-main .left-div {
+    right: 100%;
+}
+
+.about-main .right-div {
+    right: -140%;
+}
+
+.about-main .middle-div {
+    left: 50%;
+}
+
+/*=============================set main text p element========================*/
+.about-main p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about-main p,.about-main p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+/*
+   ====================================================================================================
+                              contact     
+   ====================================================================================================
+*/
+.contact {
+    background: cyan;
+}
+
+/*
+   ====================================================================================================
+                                our course   
+   ====================================================================================================
+*/
+
+.ourCourse {
+    background: #bd00ff;
+    background-image: url(../img/gradient/vector-colorful-holographic-gradient-background-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    //font-family: cursive;
+}
+.ourCourse .row{
+    padding: 0;
+}
+.ourCourse .col-md-3{
+    padding: 35px;
+}
+.ourCourse .course-poster{
+    //background: white;
+    min-height: 300px;
+    margin: auto;
+}.ourCourse .course-poster:hover{
+    z-index: 5;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.ourCourse .course-body .text-main{    
+    font-family: 'Yellowtail', cursive;
+}
+.ourCourse .course-body{
+    background: white;
+    border-radius: 5px;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.ourCourse .header-title{
+    background: tomato;
+    border: 1px solid tomato;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*
+   ====================================================================================================
+                                   footer
+   ====================================================================================================
+*/
+footer {
+    background: black;
+    color: white;
+    overflow: hidden;
+    
+}
+/*========follow us===========*/
+
+
+.social div{
+    float: left;    
+    position: relative; 
+    margin: 5px;
+    overflow: hidden;
+}
+.social div:hover{
+    //transform: rotate(360deg);  
+    transform: scale(1.8);
+    transition: all 0.5s; 
+}
+footer .contact-us div:hover{
+    transform: rotate(360deg);  
+    //transform: scale(1.8);
+    transition: all 0.5s; 
+}
+.social div a{    
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+/*=======================*/
+footer .right{
+    float:right;    
+    font-family: 'Yellowtail', cursive;
+}
+footer .left{
+    float:left;
+}
+footer address{
+}
