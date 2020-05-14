@@ -73,20 +73,11 @@ nav{
 
 /*
    ====================================================================================================
-                                   banner
+                                   gallery
    ====================================================================================================
 */
-.banner {
-    border: 1px solid black;
-    //background-image:url(../img/unnamed.jpg);
-    background-size: cover;
-    background-color: black;
-    background-color: rgba(0, 0, 0);
-    background-blend-mode: overlay;
-}
-.banner img{
-    width: 100%;
-    height: auto;
+.gallery {
+    height: 500px;
 }
 
 /*
@@ -191,7 +182,8 @@ nav{
    ====================================================================================================
 */
 .contact {
-    background: cyan;
+    background-color: gainsboro;
+    //color: white;
 }
 
 /*
